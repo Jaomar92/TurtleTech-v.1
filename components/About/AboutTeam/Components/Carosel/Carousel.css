@@ -1,0 +1,24 @@
+/* Carousel.css */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      -50%
+    ); /* This will depend on the total width of your carousel items */
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite; /* Adjust the duration as needed */
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
