@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="pb-3 flex items-end justify-end h-[70px]">
-            Company Registeration Number and copy right
+            Company Registeration Number and copy right. Test
           </div>
         </div>
       </div>
