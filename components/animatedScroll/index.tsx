@@ -19,7 +19,7 @@ const AnimatedScroll = () => {
           <li>
             <Image
               src="./Assets/Home/Frontend.svg"
-              alt="Disney"
+              alt="Disney2"
               width={200}
               height={200}
             />
