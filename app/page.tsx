@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import HomeBanner from "@/components/Home/HomeBanner";
 import Navbar from "@/components/Navbar";
 import Testimonials from "@/components/Home/Testimonials/page";
+import AnimatedScroll2 from "@/components/animatedScroll-ii";
 
 export default function Home() {
   return (
@@ -26,21 +27,25 @@ export default function Home() {
         {/* About -- End */}
         {/* Clients -- End */}
         <section>
-          <div className="bg-gray-950 h-[150px] py-6">
-            <div className="container py-3">
-              <div className="font-mono text-gray-300 text-4xl">
+          <div className="bg-gray-950 h-fit py-6">
+            <div className="container py-2">
+              <div className="font-mono text-gray-300 text-4xl py-4">
                 Our Clients{" "}
               </div>
-              <div className="flex flex-auto items-center justify-center gap-5">
-                <div className="text-3xl font-extrabold text-gray-500 ">
-                  TenX Prime
-                </div>
-                <div className="text-3xl font-extrabold text-gray-500 ">
-                  Asian Supply Base.Sdn Bhd
-                </div>
-                <div className="text-3xl font-extrabold text-gray-500 ">
-                  J&T
-                </div>
+              <div className="flex items-center justify-center">
+                <AnimatedScroll2
+                  items={[
+                    {
+                      company: "TenX Prime",
+                    },
+                    {
+                      company: "Asian Supply Base.Sdn Bhd",
+                    },
+                    {
+                      company: "J&T express",
+                    },
+                  ]}
+                />
               </div>
             </div>
           </div>
