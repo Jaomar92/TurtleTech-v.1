@@ -62,7 +62,7 @@ const InfiniteScrollCarousel = () => {
   const StartSlider = () => {
     slideInterval = setInterval(() => {
       handleNext();
-    }, 6000);
+    }, 4000);
   };
 
   const PauseSlider = () => {

@@ -10,9 +10,9 @@ const Testimonials = () => {
         <div className="py-5 h-fit  my-12">
           <InfenetScrollCarousel />
         </div>
-        <div className="my-12 flex items-center justify-center">
+        {/* <div className="my-12 flex items-center justify-center">
           <AnimatedScroll />
-        </div>
+        </div> */}
       </div>
     </div>
   );
