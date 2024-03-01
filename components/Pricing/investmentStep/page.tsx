@@ -1,3 +1,5 @@
+import PriceSection from "./PriceSection";
+
 const companyDigi = [
   {
     id: 1,
@@ -65,6 +67,23 @@ const InvestmentStep = () => {
         <br />
         But we will assume you are at zero.
       </p>
+      <div className="py-2">
+        <PriceSection
+          image={"/Assets/Pricing/Website.svg"}
+          title={"Gathering Awareness"}
+          descrip={`First step is having people find you on the internet.\n\nThis could start by have a 3 page website.\n\n 1.Home\n2.Services\n3.Contact`}
+          id={1}
+          start={"500"}
+          monthly={"120"}
+          yearly={"300"}
+        />
+        <PriceSection
+          image={"/Assets/Pricing/Plan.svg"}
+          title={"Digital Plan"}
+          descrip={`Lets say that since creating and establishing a website has brought in more businesses and you are looking for better efficientcy. We'll carry out the initial study for a digitalization plan.\n\n This will enquire a perliminary study subject to a Non-Disclosure-Agreement so your trade secrets and process are kept safe.\n\n We'll look into operations, Technologies to impliment and processes to streamline your business.`}
+          id={2}
+        />
+      </div>
     </div>
   );
 };
