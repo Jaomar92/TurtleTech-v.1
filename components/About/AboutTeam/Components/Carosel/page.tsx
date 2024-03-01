@@ -49,7 +49,10 @@ const Carousel = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
         {TeamMembers.map((team) => {
           return (
-            <div className="bg-slate-400/70 flex flex-col gap-3 font-mono items-start justify-between p-5 rounded-xl">
+            <div
+              key={team.key}
+              className="bg-slate-400/70 flex flex-col gap-3 font-mono items-start justify-between p-5 rounded-xl"
+            >
               <div className="flex items-stretch justify-between w-full">
                 <div className="text-2xl w-full h-full flex items-center">
                   {team.name}

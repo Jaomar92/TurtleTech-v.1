@@ -11,15 +11,17 @@ const PricingBanner = () => {
               About Us...
             </div> */}
             <div className="font-mono text-xl text-white py-3">
-              We offer a variaty of pricing options to make digitalization
-              available.
+              We offer a variaty of pricing options to help you in your
+              digitalization journey.
               <br />
               <br />
-              It all depends on how much of your company processes you wish to
-              digitalize and automate.
+              Depending on which stage of your digitalization journey you are
+              in,
               <br />
               <br />
-              From personal Information Website, to Blogs, ecommerce and ERP.
+              the investment can vary and thus, encourage you to please refer to
+              our digitalization step guide below.
+              <br />
               <br />
               Do continue to browse to see what is applicable to you.
             </div>
@@ -33,24 +35,6 @@ const PricingBanner = () => {
             }}
             className="h-[80vh]"
           ></div>
-        </div>
-      </div>
-      <div className="container relative top-[-60px]">
-        <div className="bg-yellow-300 h-[130px] shadow-md rounded-2xl">
-          <div className="grid grid-cols-3">
-            <div className="text-center font-bold text-xl h-[120px] flex flex-col items-center justify-center">
-              <span className="font-mono text-4xl text-center">10 +</span>
-              Years of Extensive
-              <br /> Experience
-            </div>
-            <div className="text-center font-bold text-xl h-[120px] flex flex-col items-center justify-center">
-              Creative Design
-            </div>
-            <div className="text-center font-bold text-xl h-[120px] flex flex-col items-center justify-center">
-              Client-Centric <br />
-              Approach
-            </div>
-          </div>
         </div>
       </div>
     </>
