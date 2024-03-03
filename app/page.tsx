@@ -17,8 +17,8 @@ export default function Home() {
         {/* banner -- end */}
         {/* Clients -- End */}
         <section>
-          <div className="bg-gray-950 h-fit py-4">
-            <div className="container py-1 hidden md:visible">
+          <div className="bg-gray-950 h-fit py-4 hidden md:block">
+            <div className="container py-1 ">
               <div className="font-mono text-gray-300 text-4xl py-2 text-center">
                 Our Clients{" "}
               </div>

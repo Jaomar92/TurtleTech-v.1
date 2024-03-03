@@ -169,7 +169,7 @@ const Contact = () => {
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
                   display: "block",
-                  height: "200px",
+                  // height: "200px",
                   width: "93%",
                 }}
               ></div>
