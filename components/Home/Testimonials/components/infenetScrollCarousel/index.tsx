@@ -108,9 +108,11 @@ const InfiniteScrollCarousel = () => {
           className=" 
         absolute 
         w-full
-        top-1/2
+        bottom-5
+        md:bottom-1/2
         transform
-        translate-y-1/2
+        translate-y-1
+        md:translate-y-1/2
         px-3
         flex
         justify-between

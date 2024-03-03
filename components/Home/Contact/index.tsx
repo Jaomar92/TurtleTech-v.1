@@ -65,11 +65,11 @@ const Contact = () => {
 
   return (
     <>
-      <div className="bg-gradient-to-r from-orange-400 from-5% via-red-500 via-50% to-orange-500 to-90% h-fit">
+      <div className="py-4 bg-gradient-to-r from-orange-400 from-5% via-red-500 via-50% to-orange-500 to-90% h-fit">
         <div className="container py-4">
           <div>
             <div className="text-4xl font-mono py-3">Contact</div>
-            <div className="grid grid-cols-2 bg-neutral-200 shadow-md rounded-md h-fit">
+            <div className="grid grid-cols-1 md:grid-cols-2 bg-neutral-200 shadow-md rounded-md h-fit place-content-stretch">
               <div className="w-full flex flex-col p-8 gap-3">
                 <Form {...form}>
                   <form
@@ -160,18 +160,20 @@ const Contact = () => {
                   </form>
                 </Form>
               </div>
-              <div className="mx-auto my-5 w-[600px] h-[460px] flex items-center justify-center bg-slate-100 rounded-lg shadow-lg">
-                <div
-                  style={{
-                    backgroundImage: 'url("/Assets/Home/Contact.svg")',
-                    backgroundSize: "contain",
-                    backgroundRepeat: "no-repeat",
-                    backgroundPosition: "center",
-                    height: "100%",
-                    width: "100%",
-                  }}
-                ></div>
-              </div>
+              {/* <div className="mx-auto my-5 w-full h-[490px]  flex items-center justify-center "> */}
+              <div
+                className="mx-3 bg-slate-100 rounded-lg shadow-lg"
+                style={{
+                  backgroundImage: 'url("/Assets/Home/Contact.svg")',
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                  display: "block",
+                  height: "200px",
+                  width: "93%",
+                }}
+              ></div>
+              {/* </div> */}
             </div>
           </div>
         </div>

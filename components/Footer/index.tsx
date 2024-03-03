@@ -3,8 +3,8 @@ const Footer = () => {
     <div className="bg-gray-950">
       <div className="text-white container">
         <div className="grid grid-rows-1 w-full">
-          <div className="grid grid-cols-3 pt-6">
-            <div>
+          <div className="grid grid-cols-1 md:grid-cols-3 pt-6 gap-5 ">
+            <div className="flex flex-col">
               <div className="font-semibold text-lg">Company</div>
               <div>
                 <ul>

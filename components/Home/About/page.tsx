@@ -1,10 +1,12 @@
 const About = () => {
   return (
     <div className="container">
-      <div className=" grid grid-cols-2 py-5 items-stretch gap-8">
+      <div className=" grid grid-cols-1 md:grid-cols-2 py-5 items-stretch gap-8">
         <div>
-          <div className="text-2xl font-mono">About Us...</div>
-          <div className="text-md font-mono">
+          <div className="text-2xl font-mono text-center md:text-left">
+            About Us...
+          </div>
+          <div className="text-md font-mono text-center md:text-left">
             <p>
               <br />
               We are a team experienced individuals with business administration
@@ -44,10 +46,10 @@ const About = () => {
         ></div>
 
         <div>
-          <div className="text-2xl font-mono pb-5">
+          <div className="text-2xl font-mono pb-5 text-center md:text-left">
             Scope of Services Offered...
           </div>
-          <div className="text-md font-normal">
+          <div className="text-md font-normal ">
             <div>
               <ul className="list-disc pl-5 font-mono text-lg">
                 <li>
