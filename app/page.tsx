@@ -15,21 +15,11 @@ export default function Home() {
         {/* banner -- Start */}
         <HomeBanner />
         {/* banner -- end */}
-        {/* Features -- Start */}
-        <section>
-          <Features />
-        </section>
-        {/* Features -- End */}
-        {/* About -- Start */}
-        <section className="bg-slate-300 h-fit">
-          <About />
-        </section>
-        {/* About -- End */}
         {/* Clients -- End */}
         <section>
-          <div className="bg-gray-950 h-fit py-6">
-            <div className="container py-2">
-              <div className="font-mono text-gray-300 text-4xl py-4">
+          <div className="bg-gray-950 h-fit py-4">
+            <div className="container py-1">
+              <div className="font-mono text-gray-300 text-4xl py-2 text-center">
                 Our Clients{" "}
               </div>
               <div className="flex items-center justify-center">
@@ -51,6 +41,16 @@ export default function Home() {
           </div>
         </section>
         {/* Clients -- End */}
+        {/* Features -- Start */}
+        <section>
+          <Features />
+        </section>
+        {/* Features -- End */}
+        {/* About -- Start */}
+        <section className="bg-slate-300 h-fit">
+          <About />
+        </section>
+        {/* About -- End */}
         {/* Testimonials -- Start */}
         <Testimonials />
         {/* Testimonials -- End */}

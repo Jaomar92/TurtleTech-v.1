@@ -37,21 +37,42 @@ const PriceSection: React.FC<PriceProps> = ({
       <div className="w-[100%] flex flex-col gap-5">
         <h4 className="text-2xl font-mono">{title}</h4>
         <p style={{ whiteSpace: "pre-line" }}>{descrip}</p>
-        {start || monthly || yearly ? (
+        {start ? (
           <div>
             <p>
               Prices can start as low as <strong>RM{start}</strong>
-              <br />
-              Monthly Maintainace of: <strong>RM{monthly}</strong>
-              <br />
-              Yearly Renewal of: <strong>RM{yearly}</strong>
             </p>
           </div>
         ) : (
           ""
         )}
-        <p></p>
-        <p></p>
+        {monthly ? (
+          <div>
+            <p>
+              Monthly Maintainace of: <strong>RM{monthly}</strong>
+            </p>
+          </div>
+        ) : (
+          ""
+        )}
+        {yearly ? (
+          <div>
+            <p>
+              Yearly Renewal of:: <strong>RM{yearly}</strong>
+            </p>
+          </div>
+        ) : (
+          ""
+        )}
+        {start || yearly || monthly ? (
+          <div>
+            <p>
+              <em>** Subject to Terms and Conditions</em>
+            </p>
+          </div>
+        ) : (
+          ""
+        )}
 
         <Button variant="outline" className="font-semibold">
           Learn More

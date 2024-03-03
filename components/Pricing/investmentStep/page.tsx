@@ -80,8 +80,23 @@ const InvestmentStep = () => {
         <PriceSection
           image={"/Assets/Pricing/Plan.svg"}
           title={"Digital Plan"}
-          descrip={`Lets say that since creating and establishing a website has brought in more businesses and you are looking for better efficientcy. We'll carry out the initial study for a digitalization plan.\n\n This will enquire a perliminary study subject to a Non-Disclosure-Agreement so your trade secrets and process are kept safe.\n\n We'll look into operations, Technologies to impliment and processes to streamline your business.`}
+          descrip={`Lets say that since creating and establishing a website has brought in more businesses and you are looking for better efficientcy. We'll carry out the initial study for a digitalization plan.\n\n This will require a perliminary study subject to a Non-Disclosure-Agreement so your trade secrets and process are kept safe.\n\n We'll look into operations, Technologies to impliment and processes to streamline your business.\n\n We'll provide a proposal with quotation to open more discussions.`}
           id={2}
+        />
+        <PriceSection
+          image={"/Assets/Pricing/Server.svg"}
+          title={"Digital Plan - Implementation (Database)"}
+          descrip={`Establishing a sort of Data-center will be a priority at this point before any project can be implemented. This will be where all project implementation will be derived from.\n\n There are a viarty of sources of data-bases that will not require inhouse infrastructure making cost cheaper such as:- \n\n 1. MongoDB-Cloud \n 2.Supabase- Cloud \n3.MySQL - webhosting provider \n\n Prices can vary from RM100 to RM10,000 a month`}
+          id={3}
+        />
+        <PriceSection
+          image={"/Assets/Pricing/Control.svg"}
+          title={"Control"}
+          descrip={`Here we begin we gain the ability of data structure manipulation and what we can infer from them. Giving the ability to create company dashboards to track KPI's and performance`}
+          id={4}
+          start={"800"}
+          monthly={"500"}
+          // yearly={"300"}
         />
       </div>
     </div>
