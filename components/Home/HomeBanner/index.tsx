@@ -24,14 +24,19 @@ const HomeBanner = () => {
         }}
       >
         <div className="grid grid-cols-2">
-          <div className=" h-[700px] w-[80%] ">
+          <div className=" h-[700px] w-[100%] ">
             <div className=" h-full flex flex-col justify-center gap-12 items-start">
-              <Glitcheffect name="Welcome to Turtle Tech!" />
+              <div className="flex">
+                <p className="text-4xl font-mono">
+                  Welcome to,
+                  <Glitcheffect name="Turtle Tech!" />
+                </p>
+              </div>
               <p className="font-mono text-2xl">
                 Your Digitalization Partner for your digitalization
                 transformation!
               </p>
-              <div className="grid md:grid-cols-3 grid-cols-1 w-full gap-2">
+              <div className="grid md:grid-cols-3 grid-cols-1 w-[80%] gap-2">
                 <div className="w-full">
                   <Card className="shadow-md bg-orange-200/60 border-none">
                     <CardHeader>
@@ -88,7 +93,6 @@ const HomeBanner = () => {
                   </Card>
                 </div>
               </div>
-
               <div className="flex gap-3">
                 <Button variant="secondary">Start Here</Button>
                 <Button variant="link">See Our Works</Button>
