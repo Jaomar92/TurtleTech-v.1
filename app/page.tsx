@@ -11,18 +11,18 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="h-screen/2">
+      <main className="w-full ">
         {/* banner -- Start */}
         <HomeBanner />
         {/* banner -- end */}
         {/* Clients -- End */}
         <section>
           <div className="bg-gray-950 h-fit py-4">
-            <div className="container py-1">
+            <div className="container py-1 hidden md:visible">
               <div className="font-mono text-gray-300 text-4xl py-2 text-center">
                 Our Clients{" "}
               </div>
-              <div className="flex items-center justify-center">
+              <div className="flex items-center justify-center ">
                 <AnimatedScroll2
                   items={[
                     {

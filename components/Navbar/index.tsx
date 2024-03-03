@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="text-3xl text-white font-extrabold w-[250px]">
           <Link href="/">Logo</Link>
         </div>
-        <div className="flex gap-3 pt-2 font-mono text-lg text-white w-full">
+        <div className="gap-3 pt-2 font-mono text-lg text-white w-full hidden md:flex">
           {MenuItems.map((item) => {
             return (
               <Link href={item.link} key={item.id}>
@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-stretch gap-3">
           <Button
-            className="px-7 text-lg font-mono text-white hover:underline"
+            className="px-7 text-lg font-mono text-white hover:underline hidden md:block"
             variant="ghost"
           >
             Toggle night
